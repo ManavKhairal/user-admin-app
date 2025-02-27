@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "1.5rem",
+  "borderWidth": "1",
+  "bottomRow": 139,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "defaultModel": "{{data_table}}\n",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "defaultModel"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "ukeulw8g4q",
+  "leftColumn": 18,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 123,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 18,
+  "mobileTopRow": 93,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 139,
+  "originalTopRow": 99,
+  "parentColumnSpace": 10.203125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 47,
+  "srcDoc": {
+    "css": ".app {\n  height: calc(var(--appsmith-ui-height) * 1px);\n  width: calc(var(--appsmith-ui-width) * 1px);\n  justify-content: center;\n  border-radius: var(--appsmith-theme-borderRadius);\n  box-shadow: var(--appsmith-theme-boxShadow);\n  padding: 29px 25px;\n  box-sizing: border-box;\n  font-family: system-ui;\n  background: #fff;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n  font-size: 14px;\n  line-height: 1.571429;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n  font-size: 16px;\n  font-weight: 700;\n}\n\n.tip-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n  margin-bottom: 9px;\n}\n\n.tip-header div {\n  color: #999;\n}\n\n.button-container {\n  text-align: right;\n  padding-top: 4px;\n}\n\n.button-container button {\n  margin: 0 10px;\n  cursor: pointer;\n  border-radius: var(--appsmith-theme-borderRadius);\n  padding: 6px 16px;\n  background: none;\n}\n\n.button-container button#next {\n  background: var(--appsmith-theme-primaryColor) !important;\n  color: #fff;\n  border: 1px solid var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button#reset {\n  border: 1px solid #999;\n  color: #999;\n  outline: none;\n  box-shadow: none;\n}\n\n.button-container button#reset:hover:not(:disabled) {\n  color: var(--appsmith-theme-primaryColor);\n  border-color: var(--appsmith-theme-primaryColor);\n}\n\n.button-container button#reset:disabled {\n  cursor: default;\n}",
+    "html": "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">\n<div class=\"card\" style=\"width: 18rem;\">\n  <img src=\"https://www.gadgets360.com/static/v1/images/og_excitel.png\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Practice Card</h5>\n    <p class=\"card-text\">Kya likhu kuch dimag mein nhi aara hai, toh dummy text ke liye mein kuch bhi likh rha hu yha pr!!!</p>\n    <a href=\"#\" class=\"btn btn-outline-primary\">Click Me!</a>\n  </div>\n</div>",
+    "js": "let cardEl = document.querySelector(\".card-text\");\nlet data = appsmith.model;\nappsmith.onReady(() => {\n  const newData = \"Manav\";\n  data.type.push(data.type);\n  const data = appsmith.model;\n  cardEl.innerText = data.type;\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 99,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: var(--appsmith-theme-borderRadius);\n\tbox-shadow: var(--appsmith-theme-boxShadow);\n\tpadding: 29px 25px;\n\tbox-sizing: border-box;\n\tfont-family: system-ui;\n\tbackground: #fff;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n\tfont-size: 14px;\n\tline-height: 1.571429;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n\tmargin-bottom: 9px;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\n\tpadding-top: 4px;\n}\n\n.button-container button {\n  margin: 0 10px;\n\tcursor: pointer;\n\tborder-radius: var(--appsmith-theme-borderRadius);\n\tpadding: 6px 16px;\n\tbackground: none;\n}\n\n.button-container button#next {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n\tcolor: #fff;\n\tborder:1px solid var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button#reset {\n\tborder: 1px solid #999;\n\tcolor: #999;\n\toutline: none;\n\tbox-shadow: none;\n}\n\n.button-container button#reset:hover:not(:disabled) {\n\tcolor: var(--appsmith-theme-primaryColor);\n\tborder-color: var(--appsmith-theme-primaryColor);\n}\n\n.button-container button#reset:disabled {\n\tcursor: default;\n}",
+    "html": "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">\n<div class=\"card\" style=\"width: 18rem;\">\n  <img src=\"https://www.gadgets360.com/static/v1/images/og_excitel.png\" class=\"card-img-top\" alt=\"...\">\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Practice Card</h5>\n    <p class=\"card-text\">Kya likhu kuch dimag mein nhi aara hai, toh dummy text ke liye mein kuch bhi likh rha hu yha pr!!!</p>\n    <a href=\"#\" class=\"btn btn-outline-primary\">Click Me!</a>\n  </div>\n</div>",
+    "js": "\n\nlet cardEl = document.querySelector(\".card-text\");\nlet data = appsmith.model;\n\nappsmith.onReady(() => {\n\tconst newData = \"Manav\"\n\t\tdata.type.push(data.type)\n\n  const data = appsmith.model;\ncardEl.innerText = data.type\n\t\n});\n"
+  },
+  "version": 1,
+  "widgetId": "mto3uxvcgp",
+  "widgetName": "Custom1"
+}
