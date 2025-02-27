@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 94,
+  "bottomRow": 86,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "button": {
@@ -628,7 +628,7 @@
       "width": 150
     }
   },
-  "rightColumn": 64,
+  "rightColumn": 58,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "tableData": "{{FindQuery.data}}",

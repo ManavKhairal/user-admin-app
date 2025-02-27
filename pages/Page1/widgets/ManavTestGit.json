@@ -3,7 +3,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 139,
+  "bottomRow": 131,
   "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
   "defaultModel": "{{data_table}}\n",
   "dynamicBindingPathList": [
@@ -51,7 +51,7 @@
     "js": "let cardEl = document.querySelector(\".card-text\");\nlet data = appsmith.model;\nappsmith.onReady(() => {\n  const newData = \"Manav\";\n  data.type.push(data.type);\n  const data = appsmith.model;\n  cardEl.innerText = data.type;\n});"
   },
   "theme": "{{appsmith.theme}}",
-  "topRow": 99,
+  "topRow": 91,
   "type": "CUSTOM_WIDGET",
   "uncompiledSrcDoc": {
     "css": ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: var(--appsmith-theme-borderRadius);\n\tbox-shadow: var(--appsmith-theme-boxShadow);\n\tpadding: 29px 25px;\n\tbox-sizing: border-box;\n\tfont-family: system-ui;\n\tbackground: #fff;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n\tfont-size: 14px;\n\tline-height: 1.571429;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n\tmargin-bottom: 9px;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\n\tpadding-top: 4px;\n}\n\n.button-container button {\n  margin: 0 10px;\n\tcursor: pointer;\n\tborder-radius: var(--appsmith-theme-borderRadius);\n\tpadding: 6px 16px;\n\tbackground: none;\n}\n\n.button-container button#next {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n\tcolor: #fff;\n\tborder:1px solid var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button#reset {\n\tborder: 1px solid #999;\n\tcolor: #999;\n\toutline: none;\n\tbox-shadow: none;\n}\n\n.button-container button#reset:hover:not(:disabled) {\n\tcolor: var(--appsmith-theme-primaryColor);\n\tborder-color: var(--appsmith-theme-primaryColor);\n}\n\n.button-container button#reset:disabled {\n\tcursor: default;\n}",
